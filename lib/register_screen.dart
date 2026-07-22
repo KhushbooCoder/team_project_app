@@ -2,6 +2,8 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 
+import 'login_screen.dart';
+
 
 class RegisterScreen extends StatefulWidget {
 
@@ -188,7 +190,14 @@ class _RegisterScreenState extends State<RegisterScreen> {
                                 ),
                               ),
                             ),
-                            onPressed: (){},
+                            onPressed: (){
+                              Navigator.pushReplacement(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => const LoginScreen(), // Next Screen
+                                ),
+                              );
+                            },
                             child: Text(
                               "Register",
                               style: TextStyle(color: Colors.white, fontSize: 20),
