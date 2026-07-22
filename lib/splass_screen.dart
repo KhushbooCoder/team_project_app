@@ -21,6 +21,8 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 
+import 'login_screen.dart';
+
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
 
@@ -30,22 +32,22 @@ class SplashScreen extends StatefulWidget {
 
 class _SplashScreenState extends State<SplashScreen> {
 
-  // @override
-  // void initState() {
-  //   super.initState();
-  //   _startSplash();
-  // }
+  @override
+  void initState() {
+    super.initState();
+    _startSplash();
+  }
 
-  // void _startSplash() {
-  //   Timer(const Duration(seconds: 3), () {
-  //     Navigator.pushReplacement(
-  //       context,
-  //       MaterialPageRoute(
-  //         builder: (context) => const HomeScreen(), // Next Screen
-  //       ),
-  //     );
-  //   });
-  // }
+  void _startSplash() {
+    Timer(const Duration(seconds: 3), () {
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(
+          builder: (context) => const LoginScreen(), // Next Screen
+        ),
+      );
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -118,11 +120,6 @@ class _SplashScreenState extends State<SplashScreen> {
                 color: Color(0xff60708F),
               ),
             ),
-
-
-
-
-
 
 
             const SizedBox(height: 30),
