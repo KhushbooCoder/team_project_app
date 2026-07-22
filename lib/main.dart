@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:team_project_app/register_screen.dart';
+import 'package:team_project_app/login_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -8,14 +8,11 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: RegisterScreen(),
+      home: LoginScreen(),
     );
   }
-
-
 }
