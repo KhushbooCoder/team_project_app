@@ -118,6 +118,12 @@ class _SplashScreenState extends State<SplashScreen> {
               ),
             ),
 
+
+
+
+
+
+
             const SizedBox(height: 30),
           ],
         ),
