@@ -51,6 +51,8 @@ class _RegisterScreenState extends State<RegisterScreen> {
             child: Center(
               child: Column(
                 children: [
+
+                  Text("Register"),
                   SizedBox(height: 30),
                   Stack(
                     children: [
