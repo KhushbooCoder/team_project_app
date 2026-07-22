@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:team_project_app/register_screen.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -167,7 +168,14 @@ class _LoginScreenState extends State<LoginScreen> {
                           children: [
                             Text("Don't have an account?"),
                             TextButton(
-                              onPressed: () {},
+                              onPressed: () {
+                                Navigator.pushReplacement(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) =>  RegisterScreen(), // Next Screen
+                                  ),
+                                );
+                              },
                               child: Text("Register"),
                             ),
                           ],

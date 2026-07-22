@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:team_project_app/login_screen.dart';
-import 'package:team_project_app/register_screen.dart';
 import 'package:team_project_app/splass_screen.dart';
 
 void main() {
@@ -14,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginScreen(),
+      home: SplashScreen(),
     );
   }
 }
