@@ -42,7 +42,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
           icon: Icon(Icons.arrow_back),
           color: Color(0xffffffff),
         ),
-        backgroundColor: Colors.blue,
+        backgroundColor: Color(0xff5B5FEF),
         title: Text(
           "Create Account",
           style: TextStyle(color: Color(0xffffffff)),
@@ -54,7 +54,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
               child: Column(
                 children: [
 
-                  Text("Register"),
+
                   SizedBox(height: 30),
                   Stack(
                     children: [
@@ -67,7 +67,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                             ? const Icon(
                           Icons.person,
                           size: 70,
-                          color: Colors.purple,
+                          color: Color(0xff5B5FEF),
                         )
                             : null,
                       ),
@@ -111,7 +111,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           child: CircleAvatar(
                             radius: 14,
                             backgroundColor: Colors.white,
-                            child: Icon(Icons.add_circle, color: Colors.blue),
+                            child: Icon(Icons.add_circle, color: Color(0xff5B5FEF)),
                           ),
                         ),
                       ),
@@ -183,7 +183,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
 
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(
-                              backgroundColor: Colors.blue,
+                              backgroundColor: Color(0xff5B5FEF),
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadiusGeometry.all(
                                   Radius.circular(10),
