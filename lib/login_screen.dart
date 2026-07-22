@@ -48,7 +48,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       child: Icon(
                         Icons.store,
                         size: 45,
-                        color: Color(0xff4A6CF7),
+                        color: Colors.blue,
                       ),
                     ),
                     SizedBox(height: 20),
