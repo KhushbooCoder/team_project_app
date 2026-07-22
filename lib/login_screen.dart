@@ -17,7 +17,7 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xffF5F7FA),
+
       body: SafeArea(
         child: SingleChildScrollView(
           child: Column(
@@ -29,8 +29,8 @@ class _LoginScreenState extends State<LoginScreen> {
                 decoration: BoxDecoration(
                   gradient: LinearGradient(
                     colors: [
-                      Color(0xff4A6CF7),
-                      Color(0xff6A8DFF),
+                      Color( 0xff5B5FEF),
+                      Color( 0xff5B5FEF),
                     ],
                     begin: Alignment.topLeft,
                     end: Alignment.bottomRight,
@@ -49,7 +49,8 @@ class _LoginScreenState extends State<LoginScreen> {
                       child: Icon(
                         Icons.store,
                         size: 45,
-                        color: Colors.blue,
+
+                        color: Color( 0xff5B5FEF),
                       ),
                     ),
                     SizedBox(height: 20),
@@ -143,7 +144,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           height: 55,
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(
-                              backgroundColor: Color(0xff4A6CF7),
+                              backgroundColor: Color( 0xff5B5FEF),
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(15),
                               ),
