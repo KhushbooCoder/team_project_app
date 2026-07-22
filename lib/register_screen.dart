@@ -42,7 +42,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
           icon: Icon(Icons.arrow_back),
           color: Color(0xffffffff),
         ),
-        backgroundColor: Colors.purple,
+        backgroundColor: Colors.blue,
         title: Text(
           "Create Account",
           style: TextStyle(color: Color(0xffffffff)),
@@ -111,7 +111,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           child: CircleAvatar(
                             radius: 14,
                             backgroundColor: Colors.white,
-                            child: Icon(Icons.add_circle, color: Colors.purple),
+                            child: Icon(Icons.add_circle, color: Colors.blue),
                           ),
                         ),
                       ),
@@ -183,7 +183,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
 
                           child: ElevatedButton(
                             style: ElevatedButton.styleFrom(
-                              backgroundColor: Colors.purple,
+                              backgroundColor: Colors.blue,
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadiusGeometry.all(
                                   Radius.circular(10),
